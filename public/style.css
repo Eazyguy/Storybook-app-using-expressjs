@@ -1,0 +1,70 @@
+p{
+    margin: 10px 0 !important
+}
+
+.login-container{
+    width:400px;
+    margin-top:50px;
+    text-align:center;
+}
+
+.fa-small{
+    font-size: 16px !important;
+}
+.btn-float{
+    float: left;
+    }
+
+.btn-float1{
+    float:right;
+}
+
+.img-small{
+    width:180px
+}
+
+#messages{
+    display: none;
+}
+
+#validationErrors{
+    display: none;
+}
+
+.page{
+    padding:0 6% 0 16%
+}
+
+.search{
+    height: 4.5rem
+}
+
+.profile{
+    width: 330px;
+}
+
+#image-display{
+    width:300px;
+}
+
+.sidenav .user-view .name, .sidenav .user-view .email{
+    line-height: 8px !important;
+}
+
+.name{
+    font-size: larger !important;
+}
+.phone{
+    font-size: smaller;
+}
+.email{
+    font-size: smaller;
+}
+.btn-menu{
+    width: 40px !important;
+    height: 40px !important;
+}
+.fa-big{
+    font-size: 16px !important;
+    line-height: 0 !important;
+}

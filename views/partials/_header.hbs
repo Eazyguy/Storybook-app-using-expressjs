@@ -1,0 +1,41 @@
+<nav class="grey darken-3">
+    <div  class="container nav-wrapper">
+        <div class="row">
+            <div class="col s3">
+        <a href="#" data-target = 'mobile-demo' class="sidenav-trigger show-on-large"><i class="fa-solid fa-bars"></i></a>
+        </div>
+            <div class="col s4">
+        <a href="#" class="brand-logo center"></a>
+        </div>
+                    <div class="col search s5 ">
+        <form action="/search" method="GET">
+            <div class="input-field">
+                <input type="search" id="search" name="search" required>
+                <label for="search" class="labelSearch label-icon">
+                    <i class="fas fa-search"></i>
+                </label>
+                <i class="fas fa-times"></i>
+            </div>
+        </form>
+        </div>
+        </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                {{{editImage user true }}}
+                <div class="background">
+                    <img src="/images/laptop.jpg" alt="navigation background">
+                </div>
+                <a href="/stories/user/{{id}}"><img src="{{image image user}}" alt="{{name}} {{Lname}}" class="circle"></a>
+                <a href="/stories/user/{{id}}"><span class="white-text name">{{name}} {{Lname}}</span></a>
+                <a href="/stories/user/{{id}}"><span class="white-text phone">{{phone}}</span></a>
+                <a href="/stories/user/{{id}}"><span class="white-text email">{{email}}</span></a>
+            </div>
+        </li>
+        <li><a href="/stories">Public stories</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/auth/logout">Logout</a></li>
+    </ul>
+
+    </div>
+</nav>
