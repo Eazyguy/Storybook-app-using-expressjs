@@ -60,8 +60,6 @@ app.engine('.hbs', exphbs.engine({
 },
 defaultLayout:'main',extname:'.hbs'}))
 app.set('view engine','.hbs')
-//handlebars paginate
-//exphbs.registerHelper('paginateHelper',paginateHelper.createPagination)
 
 //session
 app.use(session({
