@@ -31,7 +31,7 @@ router.get('/dashboard',ensureAuth,async(req,res)=>{
     
         const count = await Story.countDocuments({user:req.user.id})
 
-        res.render('Dashboard',{
+        res.render('dashboard',{
             name:req.user.firstName,
             Lname:req.user.lastName,
             image:req.user.image.filename || req.user.image,
