@@ -2,11 +2,11 @@
 <div class="row">
     {{#each stories}}
 <div class="col s12 m4" style="min-width:260px;max-width:330px;">
-    <div class="card hoverable fadeIn">
+    <div class="card hoverable">
         <div class="card-image">
             {{{editIcon user ../user _id}}}
         </div>
-        <div class="card-content center-align" style ="height: 290px;">
+        <div class="card-content center-align" style ="height: 295px;">
             <h5>{{truncate title 35}}</h5>
             <p>{{stripTags (truncate body 115)}}</p>
             <br>

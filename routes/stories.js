@@ -68,7 +68,7 @@ router.get('/',ensureAuth,async(req,res)=>{
         .skip((perpage*page)-perpage)
         .limit(perpage) 
         .lean()
-
+        console.log(stories)
         const count = await Story.countDocuments()
 
         res.render('stories/index',{
