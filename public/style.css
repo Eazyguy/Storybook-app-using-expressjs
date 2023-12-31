@@ -3,7 +3,7 @@
 }
 
 .login-container{
-    width:400px !important;
+    max-width:400px !important;
     min-width:330px !important;
     margin-top:50px;
     text-align:center;
